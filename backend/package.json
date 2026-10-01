@@ -2,12 +2,12 @@
   "name": "lezi-backend",
   "version": "0.1.0",
   "private": true,
-  "description": "Lezi dating app backend — Sprint 1 foundation and authentication",
+  "description": "Lezi dating app backend \u2014 Sprint 1 foundation and authentication",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
+    "dev": "node api.js && tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node api.js && node dist/server.js",
     "typecheck": "tsc --noEmit"
   },
   "engines": {
